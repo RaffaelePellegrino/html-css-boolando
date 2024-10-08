@@ -48,4 +48,36 @@ li{
     padding: 5px;
 }
 
+/* main */
+.white{
+    background-color: white;
+}
+.contenitore-interno-main{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 30px;
+    justify-content: space-between;
+}
+.contenitore-colonna{
+    width: calc((100% - 90px)/3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 20px;
+}
+.contenitore-colonna img{
+    width: 100%;
+}
+
+.descrizione{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: calc((100% - 90px)/3);
+}
 
