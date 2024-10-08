@@ -4,7 +4,14 @@
     margin: 0;
     padding: 0;
 }
-
+a{
+    color: white;
+}
+a:hover{
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+}
 body{
     background-color: bisque;
 }
