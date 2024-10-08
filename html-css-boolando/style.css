@@ -1,0 +1,51 @@
+/* globali */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: bisque;
+}
+li{
+    list-style: none;
+}
+
+/* contenitori */
+.bug{
+    border: 1px solid black;
+}
+.logo{
+    width: 150px;
+}
+.orange{
+    background-color: rgb(255, 106, 0);
+}
+.contenitore-esterno{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenitore-interno{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ul-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul-header li{
+    padding: 5px;
+}
+
+
