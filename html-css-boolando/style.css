@@ -19,7 +19,16 @@ li{
     list-style: none;
 }
 
+.margin-top{
+    margin-top: 20px;
+}
+
 /* contenitori */
+.fixed{
+    position: fixed;
+    z-index: 100;
+    
+}
 .bug{
     border: 1px solid black;
 }
@@ -66,6 +75,7 @@ li{
     padding: 30px;
     gap: 30px;
     justify-content: space-between;
+    margin-top: 20px;
 }
 .contenitore-colonna{
     width: calc((100% - 90px)/3);
@@ -74,7 +84,6 @@ li{
     justify-content: space-between;
     gap: 30px;
     margin-top: 20px;
-    position: relative;
 }
 .contenitore-colonna img{
     width: 100%;
@@ -167,6 +176,14 @@ li{
     text-decoration: line-through;
 }
 
-img{
-    position: relative;
+
+
+/* sperimentare il cambio carta e cuore , con zindex */
+
+.fantasma{
+    position: absolute;
+    z-index: -1;
+}
+.immagine-prima{
+    
 }
