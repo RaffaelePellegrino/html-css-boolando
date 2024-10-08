@@ -28,6 +28,7 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .contenitore-interno{
@@ -55,7 +56,7 @@ li{
     width: 1200px;
     display: flex;
     flex-direction: row;
-    padding: 10px;
+    padding: 30px;
     gap: 30px;
     justify-content: space-between;
 }
@@ -66,6 +67,7 @@ li{
     justify-content: space-between;
     gap: 30px;
     margin-top: 20px;
+    position: relative;
 }
 .contenitore-colonna img{
     width: 100%;
@@ -89,6 +91,8 @@ li{
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .contenitore-nav{
@@ -103,4 +107,42 @@ li{
 }
 .contenitore-loghi li{
     padding-left: 10px;
+}
+
+/* tag su immagini */
+.sconto-on-image{
+    display:inline-flex;
+    top: 450px;
+    left: 0;
+    position: absolute;
+    gap: 2px;
+}
+
+.tag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+.red{
+    padding: 5px;
+    background-color: red;
+}
+.blue{
+    padding: 5px;
+    background-color: green;
+}
+.immagine-testo{
+    position: relative;
+}
+
+#absolute{
+    position: relative;
+}
+
+.heart{
+    position: relative;
+    bottom: 500px;
+    left: 325px;
+    font-size: 20px;
 }
